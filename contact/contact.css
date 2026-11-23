@@ -1,0 +1,73 @@
+h1{
+    color:#32222F;
+    font-size:90px;
+    padding-left: 20px;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    border-radius:50px;
+}
+header img{
+    width: 90px;
+    height:auto;
+}
+header{
+    position: sticky;
+    top:0;
+    z-index:100;
+}
+#contact{
+border:solid#F4E9E0;
+box-shadow: 0px 0px 15px white;
+max-width: 500px;
+min-height:500px;
+margin-top:100px;
+padding-left: 15px;
+ border-radius:10px;
+ background-color: #62445D;
+ font-style: oblique;
+
+}
+ 
+#formulier{
+    border:solid#F4E9E0;
+    box-shadow:0px 0px 15px white;
+    max-width:500px;
+    min-height:500px;
+    margin-top: 100px;
+    border-radius:10px;
+    padding: 20px;
+    background-color:#32222F;
+    color:#d8cbc1;
+
+    
+}
+.contact-page{
+    display:flex;
+    justify-content: space-around;
+    font-size:smaller;
+    font-size: larger;
+
+}
+#fornulier,h2{
+display:flex;
+justify-content: center;
+color: #F4E9E0;
+}
+
+body{
+ background:radial-gradient(rgb(110, 28, 82), rgb(39, 1, 25)) ;   
+}
+
+#contact,p{
+color:#F4E9E0;
+}
+button:hover{
+    color: rgb(182, 179, 183);
+}
+button{
+    background-color: #7d4e7c;
+}
+

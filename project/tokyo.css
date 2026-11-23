@@ -1,0 +1,36 @@
+h1 {
+  color: rgb(124, 7, 7);
+  text-align: center;
+  font-family: verdana;
+  font-size: 200%;
+}
+body {
+  background-color: rgb(224, 192, 207);
+}
+header {
+  background-color: rgba(181, 53, 63, 0.895);
+}
+p {
+  color: rgb(68, 3, 26);
+  font-family: verdana;
+  font-size: 80%;
+}
+a {
+  color: rgba(77, 8, 94, 0.566);
+}
+li {
+  color: rgb(1, 1, 1);
+  font-family: verdana;
+  font-size: 100%;
+}
+h4 {
+  color: rgb(1, 1, 1);
+  font-family: verdana;
+  font-size: 150%;
+  }
+  ol {
+    color: rgb(1, 1, 1);
+    font-family: verdana;
+    font-size: 100%;
+    margin-bottom: 50px;
+  }

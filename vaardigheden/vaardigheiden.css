@@ -1,0 +1,87 @@
+h1{
+    color:rgb(18, 16, 16);
+    background-color: #d9b4ac;
+    border:solid #d9b4ac;
+    box-shadow:0px 0px 15px #c9aca5;
+    border-radius: 5px;
+    padding: 15px;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+     align-items:center;
+     border:rgb(94, 57, 97) solid;
+     box-shadow:0px 0px 20px rgb(246, 203, 203);
+     border-radius:50Px;
+     padding: 30px 20px;
+     background:radial-gradient(rgb(108, 44, 89),rgb(32, 6, 30));
+}
+nav a{
+color:rgb(188, 186, 142);
+}
+header{
+    position:sticky;
+    top:0;
+    
+}
+header img{
+    width:90px;
+    height: 20px;
+}
+
+.skills-container{
+min-width: 1000px;
+height: 1000px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+#soft{
+    border:solid #d9b4ac;
+    margin-bottom:40%;
+    border-radius: 15px;
+    box-shadow:0px 0px 20px #9e9885;
+   padding:0px 50px 50px 50px;
+   font-size:20px;
+   font-style: oblique;
+   text-decoration:underline;
+   background-color: #785366;
+
+}
+#skills{
+   border:solid #d9b4ac; 
+   border-radius:15px;
+   box-shadow:0px 0px 20px#9e9885;
+   padding:0px 50px 50px 50px;
+   text-decoration: underline;
+   font-style: oblique;
+   background-color:#785366;
+}
+#hard{
+    border:solid #d9b4ac;
+    margin-top: 40%;
+    border-radius:15px;
+    box-shadow: 0px 0px 20px #9e9885;
+    padding:0px 50px 50px 60px;
+    font-size:larger;
+    font-style:oblique;
+    background:#785366;
+    text-decoration: underline;
+
+}
+body{
+background: radial-gradient(  #86546A 0%, #45243C 55%,#1C101C 100% );
+}
+#hard table{
+    border:solid #d9b4ac;
+    border-radius: 10px;
+font-size: large;
+padding:2px;
+}
+
+#hard thead{
+    background-color:#d9b4ac;
+}#hard td{
+    border:solid #d9b4ac;
+    padding: 5px;
+}

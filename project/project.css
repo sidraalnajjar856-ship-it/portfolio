@@ -1,0 +1,89 @@
+h1{
+    color:rgb(0, 0, 0);
+    font-style:oblique;
+    text-decoration: underline;
+    font-size:50px;
+}
+
+.project-card,
+.project-container{
+    display:flex 1;
+padding: 20px;
+ border:solid rgb(146, 71, 82) 2px; 
+ border-radius: 12px;  
+ min-width:0;
+  background: radial-gradient(circle, #e39aa8, #c5b8bd);
+  box-shadow: 0px  0px 15px pink;
+ 
+}
+.project-card img{ 
+    display:block;
+   max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow:0px 0px 15px rgb(158, 76, 90);
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    border-radius:50px;
+    border:rgb(154, 61, 111) solid;
+    background:radial-gradient(circle, #e39aa8, #c5b8bd);
+    padding:20px,20px;
+}
+nav a{
+    color:rgba(189, 186, 128, 0.655);
+}
+header{
+    position:sticky;
+    top:0%;
+    z-index: index 100;
+}
+header img{
+    width:90px;
+    height:90px;
+}
+.projects{
+    display:flex;
+    gap:30px;
+    align-items: strech;
+     display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    height:300px;
+}   
+
+.project-container img{
+  display:block;
+  max-width: 100%;
+  height:300px;
+  object-fit:cover;
+  border-radius: 10px;
+  box-shadow:0px 0px 15px rgb(158, 76, 90);
+     display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+
+}
+body{
+        color:rgb(0, 0, 0);
+    background: radial-gradient(  #86546A 0%, #45243C 55%,#1C101C 100% );
+}
+.projects > div{
+    height: 70%;
+}
+div a{
+    color: #45243C;
+}
+ .project-card a:hover{
+    color:rgb(205, 129, 141);
+
+ }
+
+ .project-container a:hover{
+    color:rgb(205, 129, 141);
+ }
+
+    
