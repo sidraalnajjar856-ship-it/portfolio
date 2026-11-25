@@ -26,31 +26,27 @@ nav a {
 
 .card-container {
   display: flex;
-  justify-content:space-around;
-  gap:10px;
+  justify-content:center;
+  gap:40px;
+  width:100;
 }
 
 .card {
   padding: 15px;
-  border:#bcb297 solid;
-  box-shadow: 0px 0px 15px #b7a874;
+  border:#b2a37a solid;
+  box-shadow: 0px 0px 15px #d5c797;
   border-radius: 50px;
  height: 200px;
- width: 500px;
  background-color:#bcb59b;
   box-sizing: border-box;
   margin-bottom:20px;
   font-style: oblique;
-
-}
-
+  color:black;}
 .card a{
-  color: #7a7a36;
+  color: #494919;
  font-style: oblique;
-  font-size: 20px;
-}
-
-#card-container{
+  font-size: 20px;}
+.card-container{
   display:flex;
   justify-content:center;
   position:relative;
@@ -67,41 +63,29 @@ nav a {
   border:solid #685266;
   font-size: 15px;
   border-radius: 50px;
-  box-shadow: 0px 0px 15px#a38b8b;
-}
-
-
+  box-shadow: 0px 0px 15px#a38b8b;}
 body{
   padding:50px 35px 50px 35px;
   margin:7px 10px 7px 10px;
-  background: radial-gradient(  #86546A ,#1C101C );
-}
-
-
+  background: radial-gradient(  #86546A ,#1C101C );}
 HEADER img{
   height: auto;
   width:90px;
   object-fit:contain ;
-    filter: drop-shadow(0 0 8px #c6b6b2);
-}
-
+    filter: drop-shadow(0 0 8px #c6b6b2);}
 #card {
-    max-width: 400px;
-}
-
+    max-width: 400px;}
 .about-foto{
   width:300px;
   height:auto;
   object-fit:contain;
-  border-radius:20%;
-}
+  border-radius:20%;}
 .footer-container{
   background:radial-gradient(circle, #F5E9dc , #8b7864);
   box-shadow: 0px 0px 20px#e7e3b1;
   border-radius: 50px;
   border:solid rgb(156, 145, 99);
- height: 300px;
-}
+ height: 300px;}
 footer >p{  
   text-align:center;
   color:#601f1f;
@@ -112,31 +96,27 @@ footer >p{
   margin-right:auto;
   margin-left:auto; 
   text-decoration:underline;
-  text-decoration-color: rgba(248, 244, 244, 0.2);
-}
-
+  text-decoration-color: rgba(248, 244, 244, 0.2);}
 #copy{
   color:#490a0a;
   font-size: 20px; 
   display:flex;
   justify-content:flex-end;
   margin:-20px;
-  margin-right: 50px;
-
-}
+  margin-right: 50px;}
 footer a{
   color:#560303;
   font-size: 20px; 
-  margin-left:20px;
-
-}
+  margin-left:20px;}
 nav a:hover{
-  color: #78517e;
-}
-
+  color: #78517e;}
 footer a:hover{
-color: #b69a6d;
-}
+color: #b69a6d;}
 .card a:hover{
-  color: #490a0a;
-}
+  color: #490a0a;}
+  @media (max-width: 768px){
+    .card-container{
+      flex-direction:column;
+      align-items: center;
+    }
+  }
